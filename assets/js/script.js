@@ -6,13 +6,14 @@ $(document).ready(function() {
 
     $(".saveBtn").on('click', function() {
    
-    var time = $(this).siblings().attr('id');
-    var text = $(this).siblings('.description').val();
+    var time = $(this).parent().attr('id');
+    var task = $(this).siblings('.description').val();
 
 
-    localStorage.setItem(time, text);
+    localStorage.setItem(time, task);
 
     })
+
 
     function timeKeeper (){
         $(".time-block").each(function () {
@@ -33,19 +34,27 @@ $(document).ready(function() {
         })
     }
 
-    
-
-    // Object.keys(localStorage).forEach(function(key){
-    //     console.log(localStorage.getItem(key));
-    //     let message = localStorage.getItem(key);
-
-    //     $('.description').textContent = message;
-
-    //  });
-
-
-
+    $("#hour9 .description").val(localStorage.getItem("hour9"));
+    $("#hour10 .description").val(localStorage.getItem("hour10"));
+    $("#hour11 .description").val(localStorage.getItem("hour11"));
+    $("#hour12 .description").val(localStorage.getItem("hour12"));
+    $("#hour13 .description").val(localStorage.getItem("hour13"));
+    $("#hour14 .description").val(localStorage.getItem("hour14"));
+    $("#hour15 .description").val(localStorage.getItem("hour15"));
+    $("#hour16 .description").val(localStorage.getItem("hour16"));
+    $("#hour17 .description").val(localStorage.getItem("hour17"));
 
     timeKeeper();
 
+
 })
+
+
+            // for (let i=0; i < localStorage.length; i++) {
+            //     $("#hour{i+9} .description").val(localStorage.getItem("hour9"));
+
+            // }
+        // $('div[id^="hour"] . document').each( function(){
+        //     var task = $('#description').val(localStorage.getItem('div[id^="hour"]'));
+        //     console.log(task);
+        // })
