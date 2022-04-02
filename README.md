@@ -7,9 +7,9 @@ This is a simple calendar application that allows a user to save event for each 
 ## VISUALS
 
 
-![Project Start Page](./assets/images/code-quiz-start-page.png)
+![Project Start Page](./assets/images/scheduler-start-page.png)
 
-![Demo of the project.](./assets/images/hw4-quiz-demo.gif)
+![Demo of the project.](./assets/images/work-day-scheduler-demo.gif)
 
 ## POINTS OF INTEREST
 
