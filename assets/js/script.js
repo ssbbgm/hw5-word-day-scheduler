@@ -19,16 +19,16 @@ $(document).ready(function() {
         $(".time-block").each(function () {
             var timeBlock = $(this).data("id");
             if (timeBlock < currentTime){
-            $(this).removeClass('present')
-            $(this).removeClass('future')
+            $(this).removeClass('present');
+            $(this).removeClass('future');
             $(this).addClass('past');
             } else if (timeBlock === currentTime) {
-            $(this).removeClass('past')
-            $(this).removeClass('future')
+            $(this).removeClass('past');
+            $(this).removeClass('future');
             $(this).addClass('present');
             } else {
-            $(this).removeClass('present')
-            $(this).removeClass('past')
+            $(this).removeClass('present');
+            $(this).removeClass('past');
             $(this).addClass('future');
             }
         })
