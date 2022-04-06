@@ -29,6 +29,9 @@ WHEN I refresh the page
 THEN the saved events persist 
 ```
 
+## CONTRIBUTORS
+
+Starter code was provided for this project.
 
 ## DEPLOYED APPLICATION
 
