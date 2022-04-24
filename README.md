@@ -1,4 +1,4 @@
-# hw5-word-day-scheduler
+# hw5-work-day-scheduler
 
 # DESCRIPTION
 
