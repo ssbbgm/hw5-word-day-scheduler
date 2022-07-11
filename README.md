@@ -1,4 +1,4 @@
-# hw5-work-day-scheduler
+# Work Day Scheduler
 
 # DESCRIPTION
 
@@ -35,5 +35,5 @@ Starter code was provided for this project.
 
 ## DEPLOYED APPLICATION
 
-https://ssbbgm.github.io/hw5-word-day-scheduler/
+https://ssbbgm.github.io/work-day-scheduler/
 
